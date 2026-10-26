@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー｜仕入れ管理アプリ</title>
+<style>
+  :root { --text: #222; --muted: #666; --bg: #fff; --line: #e5e5e5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #eee; --muted: #aaa; --bg: #161616; --line: #333; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8; font-size: 16px;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  p, li { margin: 0 0 8px; }
+  ul { padding-left: 1.4em; }
+  .muted { color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p class="muted">仕入れ管理アプリ（以下「本アプリ」）</p>
+
+  <p>{{運営者名}}（以下「当社」）は、本アプリで取り扱う情報について、以下のとおり定めます。本アプリは当社および当社グループの店舗で働くスタッフが、業務（仕入れ・店舗間の移動・棚卸しなど）の記録に使うためのアプリです。</p>
+
+  <h2>1. 取得する情報</h2>
+  <ul>
+    <li><strong>アカウントの情報</strong>：ログインに使ったサービス（Google または Apple）から受け取るメールアドレス・氏名、ユーザーを識別するID。Apple でサインインし、メールを非公開にした場合は Apple が発行する中継用のメールアドレスを受け取ります。</li>
+    <li><strong>所属店舗</strong>：初回ログイン時に選んだ店舗。</li>
+    <li><strong>業務の入力内容</strong>：スタッフ購入（購入者名・商品名・金額）、店舗間・区分の移動、棚卸しの数量、プレゼントの記録、それぞれの入力日時と入力者のメールアドレス。</li>
+    <li><strong>通知用の情報</strong>：プッシュ通知を送るための端末のトークン（通知を許可した場合のみ）。</li>
+  </ul>
+  <p>位置情報・連絡先・写真・広告ID などは取得しません。広告の表示や、他社のアプリ・サイトをまたいだ追跡（トラッキング）は行いません。</p>
+
+  <h2>2. 利用目的</h2>
+  <ul>
+    <li>ログインと、所属店舗に応じた入力・閲覧の権限の管理</li>
+    <li>店舗ごとの仕入れの集計、月次の報告書の作成など、当社の社内業務</li>
+    <li>月次の締め切りのお知らせや、月次報告の完成のお知らせ（プッシュ通知）</li>
+  </ul>
+
+  <h2>3. 外部のサービスへの提供・委託</h2>
+  <p>法令に基づく場合を除き、取得した情報を第三者に販売・提供することはありません。本アプリの運営のため、次のサービスを利用しており、必要な範囲で情報がそのサービスで処理されます。</p>
+  <ul>
+    <li>Supabase（データの保存とログインの管理）</li>
+    <li>Google（Google でのログイン、社内の集計用スプレッドシート）</li>
+    <li>Apple（Apple でのサインイン、プッシュ通知の配信）</li>
+    <li>Expo（プッシュ通知の配信、アプリの更新の配信）</li>
+  </ul>
+
+  <h2>4. 保存期間とアカウントの削除</h2>
+  <p>アカウントの情報は、アカウントを削除するまで保存します。本アプリのホーム画面の下にある「アカウントを削除」から、いつでもご自身でアカウントを削除できます。削除すると、ログインの情報・所属店舗・通知用のトークンは直ちに削除されます。</p>
+  <p>ただし、これまでに入力した業務の記録（仕入れ・移動・棚卸しなど）は、当社の会計・業務の記録として残ります。この記録から入力者のメールアドレスは削除されます。</p>
+
+  <h2>5. 安全管理</h2>
+  <p>通信は暗号化（HTTPS）して行います。データベースは、ログインしたユーザーの所属店舗と役割に応じて、読み書きできる範囲を制限しています。</p>
+
+  <h2>6. お問い合わせ</h2>
+  <p>本ポリシーや、ご自身の情報の確認・訂正・削除についてのお問い合わせは、次の窓口までご連絡ください。</p>
+  <p>{{運営者名}}<br>メール：{{連絡先メールアドレス}}</p>
+
+  <h2>7. 改定</h2>
+  <p>本ポリシーの内容は、必要に応じて改定することがあります。改定した場合は、このページでお知らせします。</p>
+
+  <p class="muted">制定日：2026年10月26日</p>
+</main>
+</body>
+</html>
